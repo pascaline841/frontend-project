@@ -9,7 +9,7 @@ This locally-executable API can be installed and executed from http://localhost:
 ## INSTALLATION
 Start by closing the repository :
 ```
-git clone https://github.com/pascaline841/frontend-project
+git clone https://github.com/pascaline841/p06
 ```
 Start by cloning The OCMovies-API project
 ```
