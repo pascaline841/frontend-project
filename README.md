@@ -6,32 +6,53 @@ Beta version of a web application allowing to view in real time a classification
 <br>
 <br>
 This locally-executable API can be installed and executed from http://localhost:8000/api/v1/titles/ using the following steps.
-
-## INSTALLATION 
+## INSTALLATION
+Start by closing the repository :
+```
+git clone https://github.com/pascaline841/frontend-project
+```
 Start by cloning The OCMovies-API project
 ```
 git clone https://github.com/OpenClassrooms-Student-Center/OCMovies-API-EN-FR
 ```
-- Start access the project folder
-- Create a virtual environment
-- Activate your virtual environment
-- Install the python dependencies on the virtual environment
+Start access the project folder
+
+## for Window
+Create a virtual environment
+```
+python -m venv env
+```
+Enable the virtual environment
+```
+cd env/scripts
+source activate
+```
+
+## for Linux or macOS
+Create a virtual environment 
+```
+python3 -m venv env
+```
+Activate the virtual environment with 
+```
+source env/bin/activate 
+```
+## . . . 
+Install the python dependencies to the virtual environment
 ```
 pip install -r requirements.txt
 ```
-- Create and populate the project database with  
+Create and populate the project database with  
 ```
 python manage.py create_db
 ```
 
 ## LAUNCH 
-- Activate your virtual environment
-
-- Run the server
+Run the server
 ```
 python manage.py runserver 
 ```
-- Launch index.html
+Launch index.html
 
 ## SCREENSHOT
 
