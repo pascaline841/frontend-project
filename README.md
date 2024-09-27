@@ -1,5 +1,4 @@
-<h1 align="center">JUST STREAM IT -  OpenClassRooms Project 06 </h1>
-<br>
+<h1 align="center">JUST STREAM IT</h1>
 
 ## OVERVIEW
 Beta version of a web application allowing to view in real time a classification of films(IMBs) with a REST API application
@@ -9,7 +8,7 @@ This locally-executable API can be installed and executed from http://localhost:
 ## INSTALLATION
 Start by closing the repository :
 ```
-git clone https://github.com/pascaline841/p06
+git clone https://github.com/pascaline841/python_p06
 ```
 Start by cloning The OCMovies-API project
 ```
